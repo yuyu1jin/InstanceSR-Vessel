@@ -1,0 +1,25 @@
+project_root: .
+
+weights:
+  stage2_weights: 
+  resnet50: 
+
+datasets:
+  HR: datasets/HR
+  LR: datasets/LR
+  META: datasets/META
+
+train:
+  log_dir: logger
+  log_csv: logger/gan_log.csv
+  loss_curve: logger/gan_loss_curve.png
+  checkpoint_dir: logger/weights
+  best_checkpoint: logger/weights/best_h_loss.pth
+
+inference:
+  input_dir: inference/inputs
+  output_dir: inference/outputs
+
+experiments:
+  partc_testset: Experiments/Part_C/testset_instance
+  partc_output: Experiments/Part_C/results
