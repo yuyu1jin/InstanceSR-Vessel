@@ -8,7 +8,7 @@ Image data is not included for copyright reasons. Please prepare your own datase
 This project was developed and tested on Huawei Ascend NPU hardware based on CANN8.0.RC2. The project requirements are:
 
 ```text
-Hardware: Huawei Ascend 910B
+Hardware:  Huawei Ascend 910B
 CANN:      8.0.RC2
 PyTorch:   2.3.1
 Backend:   Ascend Extension for PyTorch / torch_npu
